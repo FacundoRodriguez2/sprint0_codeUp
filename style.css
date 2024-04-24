@@ -1,0 +1,33 @@
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+
+#taskList {
+    margin-top: 20px;
+}
+
+.task {
+    margin-bottom: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
